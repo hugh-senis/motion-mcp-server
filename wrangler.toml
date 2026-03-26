@@ -10,7 +10,7 @@ bindings = [
 
 [[migrations]]
 tag = "v1"
-new_classes = ["MotionMCPAgent"]
+new_sqlite_classes = ["MotionMCPAgent"]
 
 [vars]
 MOTION_MCP_TOOLS = "essential"
@@ -18,3 +18,5 @@ MOTION_MCP_TOOLS = "essential"
 # Secrets set via wrangler:
 #   npx wrangler secret put MOTION_API_KEY
 #   npx wrangler secret put MOTION_MCP_SECRET
+
+
